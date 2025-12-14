@@ -9,9 +9,9 @@ with open("trained_salary_LR_model.pkl", "rb") as f:
 st.title("Salary Prediction App")
 
 # Detect number of features automatically
-n_features = model.n_features_in_
+1_features = model.1_features_in_
 
-st.write(f"Model expects {n_features} input feature(s)")
+st.write(f"Model expects {1_features} input feature(s)")
 
 # Input fields
 inputs = []
